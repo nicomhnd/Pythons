@@ -1,0 +1,22 @@
+
+Algoroithme petit chiffre
+
+
+
+
+
+fonction pluspetitnombre(n):
+Début
+	n<-str(n)
+	b<-n[0]
+	pour i dans (1,longueur(n)) Faire
+		si n[i] < b: Alors
+			b<-n[i]
+			c<-n[i]
+		Sinon 	
+			c<-b
+		Fin Si
+	Fin Pour
+	Retourner c
+Fin Fonction
+Fin
